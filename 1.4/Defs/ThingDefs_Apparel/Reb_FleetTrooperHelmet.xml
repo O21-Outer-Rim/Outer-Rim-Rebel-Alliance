@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="OuterRim_MediumHelmetFabricatedBase">
+		<defName>OuterRim_RebelFleetTrooperHelmet</defName>
+		<label>rebel fleet trooper helmet</label>
+		<description>An armoured helmet used by the Alderaan Fleet Troopers, coincedentally seen often worn by members of the Rebel Alliance.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/RebelFleetTrooper/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups Inherit="False">
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>RebelFleetTrooper</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/RebelFleetTrooper/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(36, 36, 36)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>OuterRim_ApparelRebelAlliance</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+</Defs>

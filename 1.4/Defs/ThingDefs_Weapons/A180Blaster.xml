@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_A180Blaster</defName>
+		<label>a180 blaster pistol</label>
+		<description>The A-180 blaster was a modular blaster manufactured by BlasTech Industries. It was a highly versatile design which could be easily reconfigured into a blaster rifle, sniper rifle, or ion launcher depending on the situation.\n\nNote: The actual functionality would make it wildly OP, so it functions only as a pistol.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/A180Blaster</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRebelAny</li>
+			<li>ORRebelLight</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_RebelWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_PistolRed</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>24</range>
+				<soundCast>OuterRim_Shot_BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_A180Blaster</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>16</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+</Defs>

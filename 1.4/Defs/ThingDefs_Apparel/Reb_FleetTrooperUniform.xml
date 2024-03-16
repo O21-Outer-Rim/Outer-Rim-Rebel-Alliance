@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_UniformBodyFabricatedBase">
+		<defName>OuterRim_RebelFleetTrooperUniform</defName>
+		<label>rebel fleet trooper uniform</label>
+		<description>A durable set of military fatigues, most famously used by the Rebel Alliance.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/RebelFleetTrooper/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(105, 155, 201)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>RebelFleetTrooper</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/RebelFleetTrooper/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(105, 155, 201)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>OuterRim_ApparelRebelAlliance</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

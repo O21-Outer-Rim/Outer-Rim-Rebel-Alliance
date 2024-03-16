@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimResearchCoreBase">
+		<defName>OuterRim_ResearchCore_RebelAlliance</defName>
+		<label>research core (rebel alliance)</label>
+		<graphicData>
+			<texPath>OuterRim/Building/ResearchCore_Rebel</texPath>
+		</graphicData>
+		<thingSetMakerTags>
+			<li>OuterRim_RewardRebelAlliance</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

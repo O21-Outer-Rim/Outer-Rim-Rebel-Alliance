@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_DH17Rifle</defName>
+		<label>dh-17 blaster rifle</label>
+		<description>The DH-17 blaster pistol was a close-combat blaster pistol produced by BlasTech Industries. This however is a rifle. Totally different, I'm sure of it.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DH17Rifle</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRebelAny</li>
+			<li>ORRebelStandard</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_RebelWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleRed</defaultProjectile>
+				<warmupTime>0.9</warmupTime>
+				<range>32</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_DC15BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_DH17Rifle</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>8</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+</Defs>

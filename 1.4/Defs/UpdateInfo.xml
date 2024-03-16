@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- <TabulaRasa.UpdateDef>
+		<defName>OuterRim_Rebel_29102023</defName>
+		<date>2023/10/29</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Cold Weather Gear</header>
+				<text>The Rebellion is now better equipped for cold weather! They've got the Hoth uniforms, for troops and officers, which will now spawn when the temperature on the map is cold enough.</text>
+			</li>
+			<li>
+				<header>Pilot Gear</header>
+				<text>While they don't have anything to pilot just yet, there is now a selection of rebel pilot equipment to use, currently no faction pawns have a reason to spawn wearing it, but the new factions added to Core may be seen wearing the gear sometimes.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919249903</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+			</li>
+		</links>
+		<important>False</important>
+	</TabulaRasa.UpdateDef> -->
+
+	<TabulaRasa.UpdateDef>
+		<defName>OuterRim_Rebel_29102023</defName>
+		<date>2023/10/29</date>
+		<banner>UpdateInfo/O21OuterRim</banner>
+		<contentList>
+			<li>
+				<header>Recolourable Uniform</header>
+				<text>Not a fan of the fleet trooper being blue? Well now the uniform is recolourable! This may have some funky side-effects on existing saves but shouldn't be anything game breaking, more just existing uniforms being white instead of blue.</text>
+			</li>
+			<li>
+				<header>Rebel Jetpack</header>
+				<text>They fly now! Rebel Alliance Jump Troops have arrived, with jetpacks and an A280. They're an uncommon troop type, so they shouldn't spawn too often.</text>
+			</li>
+			<li>
+				<header>Galactic Diversity</header>
+				<text>If you have Outer Rim - Galactic Diversity enabled, you'll find that the Rebel Alliance faction is filled with a variety of different races now.</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2919249903</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Outer Rim Collection</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1927864603</linkUrl>
+			</li>
+		</links>
+		<important>False</important>
+	</TabulaRasa.UpdateDef>
+
+</Defs>

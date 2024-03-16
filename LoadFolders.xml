@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.4>
+		<li>/</li>
+		<li>1.4</li>
+		<!-- <li IfNotModActive="Neronix17.OuterRim.FurnitureAndDecor">1.4/Mods/VanillaStructures</li> -->
+		<!-- <li IfModActive="Neronix17.OuterRim.FurnitureAndDecor">1.4/Mods/OuterRimStructures</li> -->
+	</v1.4>
+</loadFolders>
