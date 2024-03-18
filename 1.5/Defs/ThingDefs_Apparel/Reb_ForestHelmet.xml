@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_MediumHelmetFabricatedBase">
+		<defName>OuterRim_RebelForestHelmet</defName>
+		<label>rebel forest helmet</label>
+		<description>A simple and tough helmet, most famously used by the Rebel Alliance during the battle of Endor.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/RebelEndor/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<bodyPartGroups Inherit="False">
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<tags Inherit="False">
+				<li>RebelForestCamo</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/RebelEndor/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>OuterRim_ApparelRebelAlliance</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

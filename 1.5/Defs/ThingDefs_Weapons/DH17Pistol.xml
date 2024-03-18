@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Pistol">
+		<defName>OuterRim_DH17Pistol</defName>
+		<label>dh-17 blaster pistol</label>
+		<description>The DH-17 blaster pistol was a close-combat blaster pistol produced by BlasTech Industries.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/DH17Carbine</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRebelAny</li>
+			<li>ORRebelLight</li>
+			<li>ORRebelStandard</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_RebelWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_PistolRed</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>24</range>
+				<soundCast>OuterRim_Shot_DC15BlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_DH17Blaster</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>16</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+</Defs>

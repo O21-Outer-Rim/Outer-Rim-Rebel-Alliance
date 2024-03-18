@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRimBlasterBase_Rifle">
+		<defName>OuterRim_A280Blaster</defName>
+		<label>a280 blaster rifle</label>
+		<description>The A280 blaster rifle was a type of blaster rifle mostly used by troopers of the Rebel Alliance and the soldiers of the New Republic. There existed two variants of the A280 blaster, the A280C and the A280-CFE, both of which were favored by commandos of the Rebel Alliance.</description>
+		<graphicData>
+			<texPath>OuterRim/Weapons/A280Blaster</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<weaponTags>
+			<li>ORRebelAny</li>
+			<li>ORRebelStandard</li>
+		</weaponTags>
+		<tradeTags>
+			<li>OuterRim_RebelWeapons</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>OuterRim_Bullet_RifleRed</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>OuterRim_Shot_RepeaterBlasterBolt</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="OuterRimBlasterBase_Projectile">
+		<defName>OuterRim_Bullet_A280Blaster</defName>
+		<graphicData>
+			<texPath>OuterRim/Projectile/BlasterBolt_Red</texPath>
+		</graphicData>
+		<projectile>
+			<damageAmountBase>8</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+</Defs>

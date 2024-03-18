@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_UniformBodyFabricatedBase">
+		<defName>OuterRim_RebelForestPoncho</defName>
+		<label>rebel forest poncho</label>
+		<description>A durable poncho, most famously used by the Rebel Alliance during the battle of Endor.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/RebelEndorPoncho/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>RebelForestCamo</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/RebelEndorPoncho/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers Inherit="False">
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>OuterRim_ApparelRebelAlliance</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

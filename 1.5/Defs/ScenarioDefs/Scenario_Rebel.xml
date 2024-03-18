@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>OuterRim_RebelStart</defName>
+		<label>Rebel Insurgency</label>
+		<description>The four of you arrive on this world, newly recruited and sent to establish a self sufficient rebel cell. The Alliance cannot afford to send anything further to help you regularly\n\nNote: Relatively easy due to research and equipment handed to you, but a little rougher than the Imperial start.</description>
+		<scenario>
+			<summary>Four rebels aligned with the Rebel Alliance.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>OuterRim_RebelPlayerFaction</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>4</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OuterRim_KoltoGelPack</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OuterRim_BactaSpray</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OuterRim_RebelForestHelmet</thingDef>
+					<count>4</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OuterRim_DH17Pistol</thingDef>
+					<count>4</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>45</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OuterRim_ComponentHypertech</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OuterRim_ResearchCore_RebelAlliance</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>7</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>OuterRim_Durasteel</thingDef>
+					<count>600</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OuterRim_RebelArmory</project>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text />
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<!-- <li Class="KCSG.ScenPart_AddStartingStructure">
+					<def>VFEC_AddStartingStructure</def>
+					<structureLabel>A small Rebel outpost with basic equipment and defences.</structureLabel>
+					<nearMapCenter>True</nearMapCenter>
+					<fullClear>True</fullClear>
+					<clearFogInRect>True</clearFogInRect>
+					<chooseFrom>
+						<li>OuterRim_Starter_RebelOutpostA</li>
+					</chooseFrom>
+				</li> -->
+				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
+					<def>VFEC_ForcedFactionGoodwill</def>
+					<factionDef>OuterRim_RebelAlliance</factionDef>
+					<affectStartingGoodwill>True</affectStartingGoodwill>
+					<startingGoodwillRange>100~100</startingGoodwillRange>
+				</li>
+				<li Class="VFECore.ScenPart_ForcedFactionGoodwill" MayRequire="Neronix17.OuterRim.GalacticEmpire">
+					<def>VFEC_ForcedFactionGoodwill</def>
+					<factionDef>OuterRim_GalacticEmpire</factionDef>
+					<affectStartingGoodwill>True</affectStartingGoodwill>
+					<startingGoodwillRange>-100~-100</startingGoodwillRange>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

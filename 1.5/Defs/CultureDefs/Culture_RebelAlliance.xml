@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CultureDef>
+		<defName>OuterRim_CultureRebelAlliance</defName>
+		<label>rebel ideology</label>
+		<description>The culture of the Rebel Alliance</description>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_IdeoRebelAlliance</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_DeityRebelAlliance</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_DeityTypeMakerRebelAlliance</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_LeaderTitleMakerRebelAlliance</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">OuterRim_NamerFestivalRebelAlliance</festivalNameMaker>
+		<allowedPlaceTags>
+			<li>OuterRim_OriginRepublic</li>
+		</allowedPlaceTags>
+		<iconPath>OuterRim/UI/Cultures/Rebel</iconPath>
+		<iconColor>(0.8, 0.8, 0.8)</iconColor>
+		<thingStyleCategories>
+			<!-- <li MayRequire="Ludeon.RimWorld.Ideology">
+				<category>OuterRim_StyleRebelAlliance</category>
+				<priority>2</priority>
+			</li> -->
+		</thingStyleCategories>
+		<styleItemTags>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>10</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardRural</tag>
+				<baseWeight>0.1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardUrban</tag>
+				<baseWeight>0.2</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_CultureExtended">
+				<ideoIconDef>OuterRim_Rebel</ideoIconDef>
+			</li>
+		</modExtensions>
+	</CultureDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_IdeoRebelAlliance</defName>
+		<rulePack>
+			<rulesStrings>
+				<!-- From symbol pack -->
+				<li>r_ideoName->rebel Law</li>
+				<li>r_ideoAdjective->rebel</li>
+				<li>r_memberName->citizen</li>
+
+				<!-- Generic content -->
+				<li>globalAdjective->Galactic</li>
+				<li>globalAdjective->New</li>
+				<li>globalAdjective->True</li>
+				<li>globalAdjective->Reformed</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_DeityRebelAlliance</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityName->The Force</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_DeityTypeMakerRebelAlliance</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->the force</li>
+
+				<li>god->the force</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_LeaderTitleMakerRebelAlliance</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->general</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>OuterRim_NamerFestivalRebelAlliance</defName>
+		<include>
+			<li>NamerFestivalGlobal</li>
+		</include>
+	</RulePackDef>
+
+</Defs>

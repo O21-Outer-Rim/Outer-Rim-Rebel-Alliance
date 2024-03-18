@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OuterRim_UniformBodyFabricatedBase">
+		<defName>OuterRim_RebelOfficerJacket</defName>
+		<label>rebel officer jacket</label>
+		<description>A durable jacket, most famously used by the Rebel Alliance.</description>
+		<graphicData>
+			<texPath>OuterRim/Apparel/RebelFleetOfficer/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>RebelOfficer</li>
+			</tags>
+			<wornGraphicPath>OuterRim/Apparel/RebelFleetOfficer/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers Inherit="False">
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>OuterRim_ApparelRebelAlliance</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>
