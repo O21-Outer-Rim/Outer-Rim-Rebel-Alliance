@@ -41,9 +41,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(255, 255, 255)</color>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
-		</recipeMaker>
 		<apparel>
 			<bodyPartGroups Inherit="False">
 				<li>UpperHead</li>
