@@ -11,9 +11,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(105, 155, 201)</color>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
-		</recipeMaker>
 		<apparel>
 			<tags Inherit="False">
 				<li>RebelFleetTrooper</li>

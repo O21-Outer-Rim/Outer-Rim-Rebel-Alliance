@@ -10,9 +10,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
-		</recipeMaker>
 		<apparel>
 			<bodyPartGroups Inherit="False">
 				<li>UpperHead</li>

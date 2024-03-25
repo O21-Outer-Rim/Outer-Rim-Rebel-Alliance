@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- <ThingDef ParentName="HypertechFabricatorBase">
+	<ThingDef ParentName="HypertechFabricatorBase">
 		<defName>OuterRim_HypertechFabricator_Rebel</defName>
 		<label>rebel fabricator</label>
 		<description>A hypertech work station for creating RebelAlliance equipment.</description>
@@ -14,9 +14,6 @@
 		</costList>
 		<recipes Inherit="False">
 		</recipes>
-		<researchPrerequisites Inherit="False">
-			<li>OuterRim_RebelArmory</li>
-		</researchPrerequisites>
-	</ThingDef> -->
+	</ThingDef>
 
 </Defs>

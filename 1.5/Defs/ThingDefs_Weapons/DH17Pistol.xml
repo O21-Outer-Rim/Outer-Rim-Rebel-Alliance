@@ -8,9 +8,6 @@
 		<graphicData>
 			<texPath>OuterRim/Weapons/DH17Carbine</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
-		</recipeMaker>
 		<weaponTags>
 			<li>ORRebelAny</li>
 			<li>ORRebelLight</li>

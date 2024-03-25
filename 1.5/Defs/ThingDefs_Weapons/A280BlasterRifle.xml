@@ -8,9 +8,7 @@
 		<graphicData>
 			<texPath>OuterRim/Weapons/A280Blaster</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>OuterRim_RebelArmory</researchPrerequisite>
-		</recipeMaker>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<weaponTags>
 			<li>ORRebelAny</li>
 			<li>ORRebelStandard</li>
