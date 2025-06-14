@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="OuterRimDiverseFactionBase">
+		<defName>OuterRim_RebelAlliance</defName>
+		<label>Rebel Alliance</label>
+		<description>The Alliance to Restore the Republic (2 BBY-4 ABY), commonly known as the Rebel Alliance, Alliance, the Rebellion, and rarely the Separatists, was a resistance movement formed by Bail Prestor Organa and Mon Mothma to oppose the reign of the Galactic Empire. The Alliance was formed from a less organized movement to oppose the Empire that existed, which was secretly led by Organa. This early group came together from a number of rebel cells, including the crew of the Ghost and the Phoenix Cell. The Atrivis Resistance Group was one of the first cells to join what Mothma began calling "the Alliance" before the formal formation of the Alliance to Restore the Republic. The Alliance was publicly and formally declared with the Declaration of the Rebel Alliance.</description>
+		<pawnsPlural>Rebel Insurgents</pawnsPlural>
+		<settlementGenerationWeight>0.3</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<earliestRaidDays>35</earliestRaidDays>
+		<canMakeRandomly>true</canMakeRandomly>
+		<basicMemberKind>OuterRim_RebelFleetTrooper</basicMemberKind>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Admiral</leaderTitle>
+		<fixedLeaderKinds>
+			<li>OuterRim_RebelCellLeader</li>
+		</fixedLeaderKinds>
+		<permanentEnemy>false</permanentEnemy>
+		<permanentEnemyToEveryoneExceptPlayer>true</permanentEnemyToEveryoneExceptPlayer>
+		<leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+		<fixedName>Rebel Alliance</fixedName>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<techLevel>Ultra</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.05</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.95</commonality>
+			</li>
+		</backstoryFilters>
+		<visitorTraderKinds>
+			<li>OuterRim_RebelAlliance_Visitor</li>
+		</visitorTraderKinds>
+		<caravanTraderKinds>
+			<li>OuterRim_RebelAlliance_Carvan</li>
+		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>OuterRim_RebelAlliance_Base</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-50</min>
+			<max>45</max>
+		</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<!-- ====== Typical Squad ====== -->
+			<li Class="TabulaRasa.PawnGroupMaker_Temperature">
+				<kindDef>Combat</kindDef>
+				<options>
+					<OuterRim_RebelOfficer>5</OuterRim_RebelOfficer>
+					<OuterRim_RebelHeavyTrooper>2</OuterRim_RebelHeavyTrooper>
+					<OuterRim_RebelJumpTrooper>2</OuterRim_RebelJumpTrooper>
+					<OuterRim_RebelScoutTrooper>10</OuterRim_RebelScoutTrooper>
+					<OuterRim_RebelEndorTrooper>10</OuterRim_RebelEndorTrooper>
+					<OuterRim_RebelFleetTrooper>10</OuterRim_RebelFleetTrooper>
+				</options>
+				<minTemperature>0</minTemperature>
+			</li>
+			<!-- ====== Cold Weather Squad ====== -->
+			<li Class="TabulaRasa.PawnGroupMaker_Temperature">
+				<kindDef>Combat</kindDef>
+				<options>
+					<OuterRim_RebelOfficer>5</OuterRim_RebelOfficer>
+					<OuterRim_RebelHeavyTrooper>2</OuterRim_RebelHeavyTrooper>
+					<OuterRim_RebelJumpTrooper>2</OuterRim_RebelJumpTrooper>
+					<OuterRim_RebelScoutTrooper>10</OuterRim_RebelScoutTrooper>
+					<OuterRim_RebelSnowTrooper>20</OuterRim_RebelSnowTrooper>
+				</options>
+				<maxTemperature>0</maxTemperature>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<OuterRim_RebelCellLeader>1</OuterRim_RebelCellLeader>
+					<OuterRim_RebelOfficer>5</OuterRim_RebelOfficer>
+					<OuterRim_RebelScoutTrooper>5</OuterRim_RebelScoutTrooper>
+					<OuterRim_RebelFleetTrooper>10</OuterRim_RebelFleetTrooper>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<OuterRim_RebelTrader>1</OuterRim_RebelTrader>
+				</traders>
+				<carriers>
+					<Muffalo>4</Muffalo>
+				</carriers>
+				<guards>
+					<OuterRim_RebelOfficer>5</OuterRim_RebelOfficer>
+					<OuterRim_RebelHeavyTrooper>2</OuterRim_RebelHeavyTrooper>
+					<OuterRim_RebelJumpTrooper>2</OuterRim_RebelJumpTrooper>
+					<OuterRim_RebelScoutTrooper>10</OuterRim_RebelScoutTrooper>
+					<OuterRim_RebelFleetTrooper>20</OuterRim_RebelFleetTrooper>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<OuterRim_RebelCellLeader>1</OuterRim_RebelCellLeader>
+					<OuterRim_RebelOfficer>5</OuterRim_RebelOfficer>
+					<OuterRim_RebelHeavyTrooper>2</OuterRim_RebelHeavyTrooper>
+					<OuterRim_RebelJumpTrooper>2</OuterRim_RebelJumpTrooper>
+					<OuterRim_RebelScoutTrooper>10</OuterRim_RebelScoutTrooper>
+					<OuterRim_RebelFleetTrooper>20</OuterRim_RebelFleetTrooper>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<factionIconPath>OuterRim/World/RebelFactionIcon</factionIconPath>
+		<colorSpectrum>
+			<li>RGB(255, 255, 255)</li>
+		</colorSpectrum>
+		<allowedCultures>
+			<li>OuterRim_CultureRebelAlliance</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology, Neronix17.OuterRim.HokeyReligions">OuterRim_MemeBendu</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		</requiredMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Respected</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_None</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Research_ExtremelySlow</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Honorable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Acceptable</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOrSocial</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+		</disallowedPrecepts>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>30</configurationListOrderPriority>
+	</FactionDef>
+
+</Defs>

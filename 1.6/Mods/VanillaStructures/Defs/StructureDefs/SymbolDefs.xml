@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_HypertechWall_OuterRim_Duracrete</defName>
+		<thing>OuterRim_HypertechWall</thing>
+		<stuff>OuterRim_Duracrete</stuff>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TibannaTankSmall</defName>
+		<thing>OuterRim_TibannaTankSmall</thing>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_FusionReactorLight</defName>
+		<thing>OuterRim_FusionReactorLight</thing>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TibannaSiphon</defName>
+		<thing>OuterRim_TibannaSiphon</thing>
+	</KCSG.SymbolDef>
+
+</Defs>
