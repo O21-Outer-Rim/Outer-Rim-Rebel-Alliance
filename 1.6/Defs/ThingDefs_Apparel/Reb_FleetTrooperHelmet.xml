@@ -4,7 +4,7 @@
 	<ThingDef ParentName="OuterRim_MediumHelmetFabricatedBase">
 		<defName>OuterRim_RebelFleetTrooperHelmet</defName>
 		<label>rebel fleet trooper helmet</label>
-		<description>An armoured helmet used by the Alderaan Fleet Troopers, coincedentally seen often worn by members of the Rebel Alliance.</description>
+		<description>An armoured helmet used by the Alderaan Fleet Troopers, coincidentally seen often worn by members of the Rebel Alliance.</description>
 		<graphicData>
 			<texPath>OuterRim/Apparel/RebelFleetTrooper/Head</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
