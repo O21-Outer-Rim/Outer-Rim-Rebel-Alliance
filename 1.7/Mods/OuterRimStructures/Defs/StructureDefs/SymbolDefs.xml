@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_HypertechWall_OuterRim_Duracrete</defName>
+		<thing>OuterRim_HypertechWall</thing>
+		<stuff>OuterRim_Duracrete</stuff>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TibannaTankSmall</defName>
+		<thing>OuterRim_TibannaTankSmall</thing>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_FusionReactorLight</defName>
+		<thing>OuterRim_FusionReactorLight</thing>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TibannaSiphon</defName>
+		<thing>OuterRim_TibannaSiphon</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineBed_East</defName>
+		<thing>OuterRim_TatooineBed</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineBed_West</defName>
+		<thing>OuterRim_TatooineBed</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineDresser_East</defName>
+		<thing>OuterRim_TatooineDresser</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineEndTable_West</defName>
+		<thing>OuterRim_TatooineEndTable</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineEndTable_East</defName>
+		<thing>OuterRim_TatooineEndTable</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineDresser_West</defName>
+		<thing>OuterRim_TatooineDresser</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_East</defName>
+		<thing>OuterRim_WallLamp</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_Decal_RebelAllianceIntelligence_West</defName>
+		<thing>OuterRim_Decal_RebelAllianceIntelligence</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_FloorLamp_South</defName>
+		<thing>OuterRim_FloorLamp</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_FloorLamp_North</defName>
+		<thing>OuterRim_FloorLamp</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_DoorTatooine</defName>
+		<thing>OuterRim_DoorTatooine</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_North</defName>
+		<thing>OuterRim_WallLamp</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordBarracks_West</defName>
+		<thing>OuterRim_AurebeshWordBarracks</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordReactor_South</defName>
+		<thing>OuterRim_AurebeshWordReactor</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_AurebeshWordCommand_North</defName>
+		<thing>OuterRim_AurebeshWordCommand</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_FloorLamp_East</defName>
+		<thing>OuterRim_FloorLamp</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_South</defName>
+		<thing>OuterRim_WallLamp</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_Decal_RebelAllianceIntelligence_North</defName>
+		<thing>OuterRim_Decal_RebelAllianceIntelligence</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_WallLamp_West</defName>
+		<thing>OuterRim_WallLamp</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineDoubleBed_South</defName>
+		<thing>OuterRim_TatooineDoubleBed</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+		<defName>OuterRim_TatooineEndTable_South</defName>
+		<thing>OuterRim_TatooineEndTable</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+</Defs>
